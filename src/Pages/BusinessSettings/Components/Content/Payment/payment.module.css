@@ -1,0 +1,224 @@
+.container{
+    padding: 20px 33px;
+    background: #E5E5E5;
+    min-height: 100vh;
+}
+.cardsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin-top: 6px;
+}
+.cardItem{
+    padding: 20px 15px;
+    flex-grow: 1;
+    height: 141px;
+    background: #FFFFFF;
+    border-radius: 11px;
+    position: relative;
+}
+.cardHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    font-family: Eina03-SemiBold;
+    font-size: 28px;
+    line-height: 44px;
+    letter-spacing: -1px;
+    color: rgba(53, 53, 53, 0.85)
+}
+.subHeading{
+    font-family: Eina03-SemiBold;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(75, 83, 108, 0.75)
+}
+.statImg{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.tableContainer{
+    margin-top: 30px;
+    padding: 20px 30px;
+    background: #FFFFFF;
+    border-radius: 16px 16px 0px 0px;
+    min-height: 100vh;
+}
+.tableHeaderBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding-bottom: 8px;
+    border-bottom:1px solid #F0F2F9
+}
+.tableFlexItem2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tableFlexItem2 ul li{
+    margin:5px 10px;
+    padding: 10px;
+    font-family: Eina03-Regular;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.03em;
+    color: #272727;
+    cursor: pointer;
+}
+.tableFlexItem2 ul li:hover{
+    color: #4B8CEB;
+    border-bottom: 1px solid #4B8CEB;
+
+}
+.activeLi{
+    color: #4B8CEB !important;
+    border-bottom: 1px solid #4B8CEB !important;
+}
+.tableFlexItem3 button{
+    background: #4B8CEB;
+    border-radius: 5px;
+    height: 34px;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+
+}
+.tableSearchBar{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 50px; */
+    background: #F0F2F9;
+    border-radius: 4px;
+    padding: 13px 16px;
+}
+.searchDiv{
+    flex-grow: 0.6;
+    background: white;
+    padding: 7px 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    box-sizing: border-box;
+    border-radius: 24px; 
+    width: 100px;   
+
+}
+.searchDiv input{
+  
+    outline: none;
+    border: none;
+    background: white;
+    height: 90%;
+    width: 100%;
+
+}
+.tableSearchFlexItem2{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.actionsDiv{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.actionsDiv button:nth-child(1){
+    background: #EBF3FF;
+    border: 1px solid #DDE9FB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 73px;
+    height: 30px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #272727;
+}
+
+.actionsDiv button:nth-child(2){
+    background: #FFF0F3;
+    border: 1px solid #DDE9FB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 73px;
+    height: 30px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #272727;
+}
+.actionsDiv button:nth-child(3){
+    background: #E4FFE1;
+    border: 1px solid #DDE9FB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 38px;
+    height: 30px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #272727;
+}
+.supportDiv{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.supportDiv button{
+    background: #FF285C;
+    border-radius: 16px 16px 0px 0px;
+    width: 179px;
+    height: 44px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: none;
+}

@@ -1,0 +1,164 @@
+.container{
+    
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+.gridItem1{
+    padding: 62px 80px 36px 71px;
+    background: #E3EFFF;
+}
+.gridItem1 p{
+    font-size: 31.9512px;
+    line-height: 188.5%;
+    /* or 60px */
+    color: #272727;
+}
+
+                    
+.gridItem2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gridItem2 > div{
+    width: 451px;
+    height: 648px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 165px rgba(186, 207, 213, 0.59)
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttonDiv button{
+    flex-grow: 1;
+    padding: 10px 15px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #272727;
+    border:none;
+    background: white ;
+
+    cursor: pointer;
+
+}
+.activeClass{
+    background: linear-gradient(178.53deg, #FFFFFF 1.24%, #ECEDF7 98.75%) !important;
+
+}
+.formDiv{
+    padding: 32px;
+}
+.formDiv > p{
+    text-align: center;
+    font-family: Eina03-Regular;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #272727;
+
+}
+.buttonDivSocial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.buttonDivSocial button{
+    flex-grow: 1;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none
+}
+
+.buttonDivSocial button:nth-child(1){
+    background: #EC483A;
+}
+.buttonDivSocial button:nth-child(2){
+    background: #067BB8;
+}
+.buttonDivSocial button:nth-child(3){
+    background: #405E9C;
+}
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.rememberMeDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Eina03-Regular;
+font-size: 14px;
+line-height: 16px;
+
+color: #272727;
+
+}
+.rememberMeDiv > div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.signupButton{
+    display: flex;
+    margin-top: 20px;
+}
+.signupButton a{
+    flex-grow: 1;
+    background: #FF285C;
+    border-radius: 5px;
+    padding: 12px 10px;
+    font-family: Eina03-SemiBold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bottomText{
+    text-align: center;
+    margin-top: 20px;
+}
+.bottomText span:nth-child(1){
+    font-family: Eina03-Regular;
+font-size: 14px;
+line-height: 16px;
+
+cursor: pointer;
+color: #272727;
+}
+.bottomText span:nth-child(2){
+    font-family: Eina03-Regular;
+font-size: 14px;
+line-height: 16px;
+cursor: pointer;
+
+color: #4B8CEB;
+}
+
+.signUpCheck{
+    font-family: Eina03-Regular;
+    font-size: 14px;
+    line-height: 26px;
+
+    color: #272727;
+    margin-left: 10px;
+}

@@ -1,0 +1,215 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 80px;
+}
+.container > h1{
+    margin: 0;
+    padding: 0;
+    font-family: Eina03-SemiBold;
+    font-size: 34px;
+    line-height: 105px;
+    /* identical to box height, or 308% */
+    color: #272727;
+}
+.cardsContainer{
+    padding: 60px 40px;
+    background-color: #F1F2F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.cardsContainer > div{
+    flex-basis: 100%;
+    flex-grow: 1;
+
+
+}
+.cardsContainer > div >div:nth-child(1){
+    background: #FFFFFF;
+    border-radius: 4.20609px;
+    padding: 14px 23px 23px 14px;
+}
+.flexItem1{
+    position: relative;
+}
+.flexItem1 > p{
+    font-family: Eina03-SemiBold;
+    font-size: 12.016px;
+    line-height: 15px;
+    /* or 124% */
+
+
+    color: #272727;
+}
+.devider{
+    position: absolute;
+    border: 1.00133px solid rgba(0, 0, 0, 0.05);
+    left: 0;
+    right: 0;
+
+}
+.adheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+
+}
+.adheader > div:nth-child(1){
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexColumn > span:nth-child(1){
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 12.016px;
+/* or 366% */
+
+
+color: #272727;
+}
+.flexColumn > span:nth-child(2){
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9.01197px;
+    /* or 488% */
+    
+    
+    color: #9D9D9D;
+    
+}
+.description{
+    font-family: Eina03-Regular;
+font-size: 12px;
+line-height: 22px;
+/* or 187% */
+
+
+color: #272727;
+
+}
+.flexColumn2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+.flexColumn2{
+    font-weight: 600;
+    font-size: 8.35506px;
+    line-height: 12px;
+    /* identical to box height, or 149% */
+    color: #272727;
+
+}
+
+.learnMoreBtn{
+    width: 74.1px;
+    height: 21.03px;
+    border: 0.525761px solid #D0D0E2;
+    box-sizing: border-box;
+    border-radius: 3.00399px;
+    background:none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8.01064px;
+    line-height: 15px;
+    /* or 186% */
+    color: #272727;
+
+}
+.socialButtonDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.socialButtonDiv button{
+    flex-grow: 1;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7.5px;
+    cursor: pointer;
+
+}
+.editButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+
+.editButtons button:nth-child(1){
+    width: 82px;
+height: 34px;
+    background: #4B8CEB;
+    border-radius: 5px;
+    font-family: Eina03-SemiBold;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height, or 146% */
+    color: #FFFFFF;
+    border: none;
+}
+.editButtons button:nth-child(2){
+    width: 82px;
+height: 34px;
+    background: #361D52;
+    border-radius: 5px;
+    font-family: Eina03-SemiBold;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height, or 146% */
+    color: #FFFFFF;
+    border: none;
+
+}
+
+.bottomButtons{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottomButtons button:nth-child(1){
+
+    width: 170.09px;
+    height: 45.48px;
+    border: 0.909548px solid #4B8CEB;
+    box-sizing: border-box;
+    border-radius: 4.54774px;
+    background: none;
+    font-family: Eina03-Regular;
+    font-size: 18.191px;
+    line-height: 40px;
+    color: #272727;
+}
+.bottomButtons button:nth-child(2){
+
+    width: 170.09px;
+    height: 45.48px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 4.54774px;
+    background: #FF285C;
+    font-family: Eina03-Regular;
+    font-size: 18.191px;
+    line-height: 40px;
+    color: #FFFFFF;
+}

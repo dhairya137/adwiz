@@ -1,0 +1,44 @@
+.container{
+    background: #FFFFFF;
+    border: 1px solid rgba(75, 140, 235, 0.21);
+    box-sizing: border-box;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.10342);
+    border-radius: 8px;
+    width: 378px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container > div:nth-child(1){
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > input:nth-child(2){
+    flex-grow: 3;
+}
+
+.container input{
+    border: none;
+    /* width: 100%; */
+    height: 90%;
+    outline: none;
+    font-family: Eina03-Regular;
+font-size: 16px;
+line-height: 19px;
+
+color: #9D9D9D;
+
+    
+}
+
+.container input::placeholder{
+    font-family: Eina03-Regular;
+font-size: 16px;
+line-height: 19px;
+
+color: #9D9D9D;
+}

@@ -1,0 +1,68 @@
+.container{
+    padding: 29px 0px 29px 0px;
+    /* position: relative; */
+
+}
+
+.navOptions {
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+
+   
+} 
+.navOptions > a > div {
+    padding-left: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.container span{
+    font-family: Eina03-SemiBold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828689;
+}
+.activeClass{
+    background-color: #4B8CEB;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+    /* width: 80%; */
+    /* padding-right: 20px; */
+    z-index: -1;
+}
+.activeClass span{
+    color: white !important;
+
+}
+.activeClass::after{
+    content: "\00a0 \00a0  \00a0  \00a0  \00a0  \00a0 ";
+    background: url('../../../../Assets//BusinessSettings/corener_active_bottom.svg') no-repeat center center/cover;
+    position: absolute;
+    left: -10px;
+    top: -31px;
+    z-index: 10;
+    transform: rotate(-90deg);
+}
+.activeClass::before{
+    content: "\00a0 \00a0  \00a0  \00a0  \00a0  \00a0 ";
+    background: url('../../../../Assets//BusinessSettings/corner_active_top.svg') no-repeat center center/cover;
+    position: absolute;
+    left: -10px;
+    bottom: -31px;
+    z-index: 10;
+    transform: rotate(-270deg);
+}
+.logoDiv{
+    background-color: white;
+}
+.authSideImg{
+    position: absolute;
+    bottom: -30%;
+}
+.container a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

@@ -1,0 +1,102 @@
+.container{
+    padding: 36px 80px 36px 90px;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.gridItem1 p{
+    font-family: Eina03-SemiBold;
+    font-size: 34px;
+    line-height: 136.5%;
+    /* or 46px */
+    letter-spacing: -1px;
+    color: #272727;
+}
+.gridItem1 div{
+    display: flex;
+    align-items: center;
+}
+
+.gridItem1 div button{
+    width: 132.5px;
+    height: 67.17px;
+    background: #4B8CEB;
+    border-radius: 4.60076px;
+    font-family: Eina03-SemiBold;
+    font-size: 22.0836px;
+    line-height: 136.5%;
+    /* identical to box height, or 30px */
+    letter-spacing: -0.920152px;
+    color: #FFFFFF;
+    border: none;
+
+}
+.gridLine{
+    display: grid;
+    grid-template-columns: 0.4fr 2fr;
+    gap: 12px;
+    margin-top:40px ;
+}
+.gridLineItem2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    gap: 24px;
+
+}
+.gridLine p{
+    font-family: Eina03-Regular;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 191% */
+display: block;
+
+
+color: #414141;
+margin: 0;
+
+}
+.gridItem2 p{
+    font-family: Eina03-SemiBold;
+    font-size: 34px;
+    line-height: 136.5%;
+    /* or 46px */
+    letter-spacing: -1px;
+    color: #272727;
+}
+.gridItem2 ul{
+    font-family: Eina03-Regular;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 191% */
+
+color: #414141;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.gridItem2 ul li{
+    
+    padding-left: 1em; 
+    position: relative;
+    line-height: 30px;
+    padding-bottom: 5px;
+   
+    
+}
+.gridItem2 ul li::before{
+ 
+        content: "• ";
+        color: #FF285C; /* or whatever color you prefer */
+        font-size: 28px;
+        font-weight: bold;
+        width: 55px;
+        position: absolute;
+        left: -5px;
+        top: -2px;
+        /* padding-top: 15px; */
+      
+}

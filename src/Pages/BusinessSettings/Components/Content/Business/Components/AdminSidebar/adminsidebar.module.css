@@ -1,0 +1,22 @@
+.container{
+    background: #4B8CEB;
+    min-height: 100vh;
+    border-top-left-radius: 10px;
+}
+
+.container span{
+    
+font-family: Eina03-SemiBold;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+.activeClass{
+    color: #4B8CEB !important;
+    background: white !important;
+}
+.activeClass span{
+    color: #4B8CEB !important;
+
+}

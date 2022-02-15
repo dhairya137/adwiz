@@ -1,0 +1,139 @@
+.container{
+    background: white;
+    min-height: 100vh;
+    padding-left: 25px;
+    
+}
+.businessAccountForm{
+
+    margin-top: 10px;
+    background: #F8F9FB;
+    border-radius: 6px;
+    padding: 20px 20px 200px 20px;
+
+}
+.businessAccountForm h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Eina03-SemiBold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #272727;
+}
+.formRow{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+input{
+    background: white !important;
+}
+.openingHourDiv{
+  
+    border: 1px solid #DADAEC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 20px;
+  
+}
+.weekDiv > div{
+    padding: 8px 16px;
+    background: #F1F1F1;
+border-radius: 3.47933px;
+    font-family: Eina03-Regular;
+font-size: 13px;
+line-height: 15px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #272727;
+
+}
+.weekDiv{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E2E2EF;
+
+}
+.openingSavingButtonDiv{
+    padding: 20px 30px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+}
+.openingSavingButtonDiv button{
+    background: #FFFFFF;
+    border: 0.867021px solid rgba(75, 140, 235, 0.17);
+    box-sizing: border-box;
+    box-shadow: inset 0px 0.867021px 2.60106px rgba(0, 0, 0, 0.10342);
+    border-radius: 4.33511px;
+    width:124.85px;
+    height:41.62px 
+}
+.openingSavingButtonDiv button:last-child{
+    width:53.76px;
+    height:41.62px 
+}
+.saveDiv{
+    padding: 20px 30px;
+
+}
+.saveDiv button{
+    background: #FF285C;
+border-radius: 5px;
+width: 116px;
+height: 34px;
+font-family: Eina03-SemiBold;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: #FFFFFF;
+border: none;
+}
+.userImageDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 88px;
+}
+.userImageDiv > div:nth-child(1){
+    border: 2.34324px dashed rgba(75, 140, 235, 0.06);
+    border-radius: 18.7459px;
+    width: 332px;
+    height: 221.33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.userImageDiv > div:nth-child(1) p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.9004px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #4B8CEB;
+    
+}
+.uploadImgDiv{
+    position: relative;
+}
+.crossDiv{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}

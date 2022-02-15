@@ -1,0 +1,57 @@
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 80px 36px 90px;
+    max-width: 1440px;
+    margin: 0 auto;
+
+
+}
+.ulClass{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.ulClass li{
+    margin: 0 15px;
+}
+.ulClass li a {
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #000000;
+}
+.ulClass li a:hover {
+    border-bottom:1px solid black ;
+}
+.ulClass .buttonClass{
+    width: 163px;
+height: 49px;
+left: 493px;
+top: 0px;
+background: #FF285C;
+border-radius: 8px;
+border: none;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+}

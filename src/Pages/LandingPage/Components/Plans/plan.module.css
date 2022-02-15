@@ -1,0 +1,165 @@
+.container{
+    padding: 36px 80px 36px 90px;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.container > p:nth-child(1) {
+    font-family: Eina03-SemiBold;
+    font-size: 40px;
+    line-height: 148.5%;
+    letter-spacing: -1px;
+    color: #272727;
+    /* padding-right: 240px; */
+
+}
+.plansDiv{
+    
+    background: #D2E5FF;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 44px 44px 83px 44px;
+}
+
+.plan1{
+    width: 316px;
+    height: 408px;
+    background: #FFFFFF;
+    /* a */
+    box-shadow: 0px 4px 165px rgba(186, 207, 213, 0.59);
+    border-radius: 10px;
+    padding-top: 45px;
+    padding-bottom: 25px ;
+    box-sizing: border-box;
+}
+.plan1 p:nth-child(1) {
+    font-family: Eina03-SemiBold;
+    font-size: 24px;
+    /* identical to box height, or 33px */
+    color: #000000;
+    text-align: center;
+    
+}
+.plan1 p:nth-child(2) {
+    font-family: Eina03-Regular;
+    font-size: 15px;
+    line-height: 136.5%;
+    /* or 20px */
+    
+    
+    color: #000000;
+    text-align: center;
+
+    
+}
+.plan2 p:nth-child(1) {
+    font-family: Eina03-SemiBold;
+    font-size: 24px;
+    /* identical to box height, or 33px */
+    color: #000000;
+    text-align: center;
+    
+}
+.plan2 p:nth-child(2) {
+    font-family: Eina03-Regular;
+    font-size: 15px;
+    line-height: 136.5%;
+    /* or 20px */
+    
+    
+    color: #000000;
+    text-align: center;
+
+    
+}
+
+.plan2{
+    width: 316px;
+    height: 396px;
+    position: relative;
+    top: 56px;
+    background: #FFFFFF;
+    /* a */
+    box-shadow: 0px 4px 165px rgba(186, 207, 213, 0.59);
+    border-radius: 10px;
+    padding-top: 35px;
+    padding-bottom: 25px ;
+    box-sizing: border-box;
+}
+.prizeDiv{
+    text-align: center;
+}
+.prizeDiv sup{
+    font-family: Eina03-Bold;
+    font-size: 36px;
+    line-height: 136.5%;
+    font-weight: bold;
+    display: inline;
+    /* or 49px */
+
+    color: #000000;
+    text-align: center;
+    position: relative;
+    top: -25px;
+}
+.plan1 button{
+    width: 80%;
+    height: 57px;
+    background: #FF285C;
+    border-radius: 7.98625px;
+    font-family: Eina03-SemiBold;
+    font-size: 18px;
+    line-height: 136.5%;
+    margin: 0 auto;
+    color: #FFFAFA;
+    border: none;
+    display: block;
+    cursor: pointer;
+
+}
+.plan2 button{
+    width: 80%;
+    height: 57px;
+    background: #4B8CEB;
+    border-radius: 7.98625px;
+    font-family: Eina03-SemiBold;
+    font-size: 18px;
+    line-height: 136.5%;
+    margin: 0 auto;
+    color: #FFFAFA;
+    border: none;
+    display: block;
+    cursor: pointer;
+
+
+}
+.prizeDiv div{
+    display: inline-flex;
+    flex-direction: column;
+
+}
+.prizeDiv div span:nth-child(1){
+    font-family: Eina03-Bold;
+    font-size: 110px;
+    line-height: 136.5%;
+    /* or 150px */
+    color: #000000;
+}
+.prizeDiv div span:nth-child(2){
+    position: relative;
+    top: -30px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    font-family: Eina03-SemiBold;
+    font-size: 18px;
+    line-height: 136.5%;
+    /* identical to box height, or 25px */
+    color: #000000;
+    margin-left: 20px;
+
+}   
